@@ -9,22 +9,34 @@ const Nav = () => {
       <div className="panel">
         <ul>
           <li>
-            <a href="#top">TOP</a>
+            <a href="#top">
+              <p className="text-gray-50">TOP</p>
+            </a>
           </li>
           <li>
-            <a href="#vision">VISION</a>
+            <a href="#vision">
+              <p className="text-gray-50">VISION</p>
+            </a>
           </li>
           <li>
-            <a href="#message">MESSAGE</a>
+            <a href="#message">
+              <p className="text-gray-50">MESSAGE</p>
+            </a>
           </li>
           <li>
-            <a href="#service">SERVICE</a>
+            <a href="#service">
+              <p className="text-gray-50">SERVICE</p>
+            </a>
           </li>
           <li>
-            <a href="#story">STORY</a>
+            <a href="#story">
+              <p className="text-gray-50">STORY</p>
+            </a>
           </li>
           <li>
-            <a href="#profile">PROFILE</a>
+            <a href="#profile">
+              <p className="text-gray-50">PROFILE</p>
+            </a>
           </li>
         </ul>
       </div>

@@ -17,16 +17,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <body>
-          <Nav />
+        <Nav />
+        <scroll-container>
           <Top />
           <Vision />
           <Message />
           <Service />
           <Story />
           <Profile />
-          <Footer />
-        </body>
+        </scroll-container>
+        <Footer />
       </main>
     </div>
   );
