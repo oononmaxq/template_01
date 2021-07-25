@@ -1,11 +1,9 @@
-import Image from "next/image";
-
 const Message = () => {
   return (
     <section id="message">
       <div className="bg-gray-800 inline-block">
         <p className="md:w-2/4 md:float-right">
-          <Image src="/sec02_01.jpg" />
+          <img src="/sec02_01.jpg" />
         </p>
         <div className="grid justify-items-center">
           <div className="mx-10 mb-10">
@@ -18,7 +16,7 @@ const Message = () => {
       </div>
       <div className="bg-gray-800 inline-block">
         <p className="md:w-2/4 md:float-left">
-          <Image src="/sec02_02.jpg" />
+          <img src="/sec02_02.jpg" />
         </p>
         <div className="grid justify-items-center">
           <div className="mx-10 mb-10">
